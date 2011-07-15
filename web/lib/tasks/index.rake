@@ -1,5 +1,5 @@
 namespace :index do
-  
+  desc 'Index Swinburn poems'  
   task :swinburne=>:environment do
     Raven.solr.delete_by_query("*:*")
     Raven.app_dir_contents('collections', 'swinburne', '*.xml').each do |f|
