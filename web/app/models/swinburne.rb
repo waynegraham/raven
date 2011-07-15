@@ -1,6 +1,6 @@
 class Swinburne
   
-  include RSolr::Ext::Model
+  #include RSolr::Ext::Model
   
   ALLROWS = 2_000_000_000
   

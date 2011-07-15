@@ -1,6 +1,7 @@
 module DocumentsHelper
   
-  include WillPaginate::ViewHelpers
+  # TODO: Update to newer will_paginate api
+  # include WillPaginate::ViewHelpers
   
   def add_facet_params(field, value)
     p = params.dup

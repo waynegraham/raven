@@ -10,7 +10,8 @@ class ApplicationController < ActionController::Base
   protected
   
   def solr
-    @solr ||= Raven.solr
+#    @solr ||= Raven.solr
+    @solr = RSolr.connect :url => 'http://localhost:8080/solr'
   end
   
 end
