@@ -1,6 +1,9 @@
+include RSolr::Ext::Model
+
 class Swinburne
   
-  #include RSolr::Ext::Model
+    #
+  connection = RSolr::Ext.connect
   
   ALLROWS = 2_000_000_000
   
