@@ -1,3 +1,6 @@
+.DS_Store
+
+
 solr/solr/data/*
 solr/logs/*
 solr/work/*
