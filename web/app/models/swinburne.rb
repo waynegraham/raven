@@ -1,7 +1,5 @@
-include RSolr::Ext::Model
-
 class Swinburne
-  
+ include RSolr::Ext::Model 
     #
   connection = RSolr::Ext.connect
   
