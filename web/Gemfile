@@ -1,0 +1,10 @@
+source :rubygems
+
+gem "rails", "~>2.3.12"
+gem "rsolr", "~>1.0.2"
+gem "rsolr-ext", "~>1.0.3"
+gem "nokogiri", "~>1.5.0"
+gem "will_paginate", "~>2.3.15"
+gem "htmldiff", "~>0.0.1"
+
+
