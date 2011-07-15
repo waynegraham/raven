@@ -30,4 +30,7 @@
   <field name="price">329.95</field>
   <field name="popularity">7</field>
   <field name="inStock">true</field>
+  <field name="manufacturedate_dt">2006-02-13T15:26:37Z</field>
+  <!-- Buffalo store -->
+  <field name="store">45.17614,-93.87341</field>
 </doc></add>
